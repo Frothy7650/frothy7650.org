@@ -1,26 +1,21 @@
 body {
-	background-color: #343541;
-	color: #dcdcdc;
-	font-family: "Segoe UI", Tahome, Geneva, Verdana, sans-serif;
+  /* Color shit, dark mode */
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+button {
+  padding: 20px 60px;
   font-size: 24px;
-	line-height: 1.6;
-	padding: 20px;
-	margin: 0;
-}
-
-h1, h2, h3 {
-	color: #ffffff;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  height: 85vh;
-}
-
-.middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
